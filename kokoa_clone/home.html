@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="kr">
     <head>
-        <title>!css 스터디 첫 날!</title>
+        <link rel="shorcut icon" sizes="16x16 32x32 64x64" href="https://nomadcoders.co/m.png"/>
+        <title>Home - My first website</title>
+        <meta name="description" content="This is my website" />
    1 </head>
     <body>
         <h1>Hello this is my website!</h1>
@@ -10,7 +12,7 @@
         <h4>Hello this is my website!</h4>
         <h5>Hello this is my website!</h5>
         <h6>Hello this is my website!</h6>
-        <h6>dddfdfd</h6>
+        <h6>수정</h6>
         <ol>
             <li>beer</li>
             <li>kimchi</li>
@@ -21,5 +23,20 @@
         <a href="https://google.com" target="_blank">Go to google.com</a>
         <img src="https://img.hankyung.com/photo/202009/01.23718391.1-1200x.jpg"/>
         <img src="img/default_cat_profile.jpg"/>
+
+        <form>
+            <div>
+                <lable for="profile">Profile Photo</lable>
+                <input id="profile" type="file" accept="image/*"/>
+            </div>  
+            <div>
+                <lable for="first-name">First Name</lable>
+                <input id="first-name" required placeholder="Name" type="text"/>
+            </div>
+            <input required placeholder="LastName" type="text" disabled/>
+            <input required placeholder="User Name" type="text"/>
+            <input required placeholder="Password" type="password"/>
+            <input type="submit" value="안뇽"/>
+        </form>
     </body>
 </html>
